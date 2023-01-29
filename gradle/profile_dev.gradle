@@ -42,7 +42,7 @@ task webpack(type: NpmTask) {
     outputs.dir("build/resources/main/static/")
 
     dependsOn npmInstall
-    args = ["run", "webpack:build"]
+    args = ["run", "fake"]
     environment = [APP_VERSION: project.version]
 }
 
