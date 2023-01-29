@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp",
+      "nativeLanguage": "ko"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "gateway",
+    "baseName": "gatewayV4",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8040",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MmQ5MWY5YjlhNDdlOWZhZGFkZDQwMzZiZGY1MjkwMWYyMTUyOGQ3NjgxMzJkMzJiNDhhMTI0MzliNWU4MGQ2MDdhYWU2NjBlM2VjOTcyZjIwZDA5NGM4YmZjYmE1NGVjOWZlZmU4MzgzYzMyMTk3ZDg0MTY1YjQxYWE4OGZlMDE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1674986757484,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.9.2"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "ko",
+    "languages": ["ko"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.9.2"
+      }
+    ]
+  }
+}
