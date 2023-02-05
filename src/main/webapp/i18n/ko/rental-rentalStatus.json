@@ -1,9 +1,0 @@
-{
-  "gatewayV4App": {
-    "RentalStatus": {
-      "null": "",
-      "RENT_AVAILABLE": "RENT_AVAILABLE",
-      "RENT_UNAVAILABLE": "RENT_UNAVAILABLE"
-    }
-  }
-}
